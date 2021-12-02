@@ -1,0 +1,1 @@
+IF 200>2 THEN PRINT"yes" 
