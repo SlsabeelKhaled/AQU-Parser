@@ -23,8 +23,20 @@ The parser is the part of the compiler that ensures that the code follows the ru
   
   <li> | "IF" comparison "THEN" nl {statement} "ENDIF" nl <ul>
      <li>The statement rule here is defined as one of two options: either a PRINT statement or IF statements. </li>
-     <li>This rule is is recursive. </li>
+     <li>This rule is is recursive. </li> </ul>
+   
   </li>
+    
+   <li>Note: <ul>
+      <li>Curly braces mean “zero or more”    </li>
+   <li>Square brackets mean “zero or one” </li>
+   <li> Plus operator means “one or more”  </li> 
+  </li>
+  
 </ul>
 
+  
+ 
+ 
 #  Grammar Teeny Tiny programming language:
+![Grammar](Capture.PNG)
